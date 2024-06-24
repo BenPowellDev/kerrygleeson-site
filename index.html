@@ -1,91 +1,348 @@
-<!DOCTYPE HTML>
-<!--
-	Identity by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Kerry Gleeson</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-				<!-- Main -->
-					<section id="main">
-						<header>
-							<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
-							<h1>Kerry Gleeson</h1>
-							<p>Artist | Animator</p>
-						</header>
-						<!--
-						<hr />
-						<h2>Extra Stuff!</h2>
-						<form method="post" action="#">
-							<div class="fields">
-								<div class="field">
-									<input type="text" name="name" id="name" placeholder="Name" />
-								</div>
-								<div class="field">
-									<input type="email" name="email" id="email" placeholder="Email" />
-								</div>
-								<div class="field">
-									<select name="department" id="department">
-										<option value="">Department</option>
-										<option value="sales">Sales</option>
-										<option value="tech">Tech Support</option>
-										<option value="null">/dev/null</option>
-									</select>
-								</div>
-								<div class="field">
-									<textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
-								</div>
-								<div class="field">
-									<input type="checkbox" id="human" name="human" /><label for="human">I'm a human</label>
-								</div>
-								<div class="field">
-									<label>But are you a robot?</label>
-									<input type="radio" id="robot_yes" name="robot" /><label for="robot_yes">Yes</label>
-									<input type="radio" id="robot_no" name="robot" /><label for="robot_no">No</label>
-								</div>
-							</div>
-							<ul class="actions special">
-								<li><a href="#" class="button">Get Started</a></li>
-							</ul>
-						</form>
-						<hr />
-						-->
-						<footer>
-							<ul class="icons">
-								<li><a href="#" class="fa-twitter">Twitter</a></li>
-								<li><a href="#" class="fa-instagram">Instagram</a></li>
-								<li><a href="#" class="fa-facebook">Facebook</a></li>
-							</ul>
-						</footer>
-					</section>
+  <title>Ben Powell - Developer</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="copyright">
-							<li>&copy; Kerry Gleeson</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</footer>
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-			</div>
+  <!-- Thumbnail Image -->
+  <meta property="og:image" content="assets/img/portfolio-thumb.PNG">
+  
+ <!-- Background Colour Override -->
+  <style type="text/css">
+    body { background: #181A1B !important; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+  </style>
 
-		<!-- Scripts -->
-			<script>
-				if ('addEventListener' in window) {
-					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
-					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-				}
-			</script>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet";
 
-	</body>
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="assets/img/Mugshot.png" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Ben Powell</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://github.com/BenPowellDev" target="_blank" class="github"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/BenPowellDev/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://www.youtube.com/channel/UCYlKUi_PI2UqtcF1jIadABg" target="_blank" class="youtube"><i class="bx bxl-youtube"></i></a>
+          <a href="https://twitter.com/benpwy" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
+        </div>
+      </div>
+
+      <nav class="nav-menu">
+        <ul>
+          <li class="active"><a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#skills"><i class="bx bx-atom"></i> <span>Software</span></a></li>
+          <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="#portfolio"><i class="bx bx-book-content"></i> Portfolio</a></li>
+
+        </ul>
+      </nav><!-- .nav-menu -->
+      <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Ben Powell</h1>
+      <p>I'm a <span class="typed" data-typed-items="UE Programmer, VR Developer, CAD Designer, Game Developer, QA Engineer"></span></p>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About</h2>
+        </div>
+
+        <div class="row">
+          <div class="mugshot-wrap" data-aos="fade-right">
+            <img src="assets/img/Mugshot-rounded.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Game Developer &amp; UE Programmer</h3>
+            <p class="font-italic">
+              
+            </p>
+            <div class="row">
+              <div class="col-lg-8">
+                <ul>
+                  <li><i class="icofont-location-pin"></i> <strong>Location: </strong>Liverpool, United Kingdom</li>
+                  <li><i class="icofont-graduate"></i> <strong>Education: </strong>Liverpool John Moores University</li>
+                </ul>
+              </div>
+            </div>
+            <p style="margin-left:1%">Hi! I'm Ben Powell. I have a passion for creating both traditional Games and Virtual Reality applications within Unreal Engine, as well as CAD design and 3D Printing. 
+            </p>
+            <p style="margin-left:1%">Within Unreal Engine I am familiar with both blueprints as well as advanced C++ and I also have some knowledge in asset creation, using packages such as Blender and 3dsMax to model, texture and animate 3D models.</p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Software and Languages</h2>
+          <p></p>
+        </div>
+        <div class="software-wrap" data-aos="fade-right">
+          <img src="assets/img/software/s-fusion.png" class="img-fluid" alt="">
+        </div>
+        <div class="software-wrap" data-aos="fade-right">
+          <img src="assets/img/software/s-3dsmax.png" class="img-fluid" alt="">
+        </div>
+        <div class="software-wrap" data-aos="fade-right">
+          <img src="assets/img/software/s-blender.png" class="img-fluid" alt="">
+        </div>
+        <div class="software-wrap" data-aos="fade-right">
+          <img src="assets/img/software/s-jira.png" class="img-fluid" alt="">
+        </div>
+        <div class="software-wrap" data-aos="fade-right">
+          <img src="assets/img/software/s-unrealengine.png" class="img-fluid" alt="">
+        </div>
+        <div class="software-wrap" data-aos="fade-right">
+          <img src="assets/img/software/s-helixcore.png" class="img-fluid" alt="">
+        </div>
+        <div class="software-wrap" data-aos="fade-right">
+          <img src="assets/img/software/s-javascript.png" class="img-fluid" alt="">
+        </div>
+        <div class="software-wrap" data-aos="fade-right">
+          <img src="assets/img/software/s-html.png" class="img-fluid" alt="">
+        </div>
+        <div class="software-wrap" data-aos="fade-right">
+          <img src="assets/img/software/s-cplusplus.png" class="img-fluid" alt="">
+        </div>
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+          <p></p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title">Current Position</h3>
+            <div class="resume-item pb-0">
+              <h4>Automated Test Engineer</h4>
+              <p><em>Entain | CR Games</em></p>
+              <p>I am currently working as a Automated Test Engineer for CR Games | Entain. My role is to coordinate with the developers of interactive slot games in: finding, fixing and improving errors / gameplay issues within a project. Using software packages such as Perforce, Git, Confluence and automated testing tools such as Selenium alongside Python scripting.
+              </p>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Computer Games Development - BSc</h4>
+              <p><em>Liverpool John Moores University - First Class</em></p>
+              <p>Within my Degree I focused on games development with Unreal Engine, as well as Object Oriented programming through C++. Helping to develop my skills on the technical side.
+              <p>In addition to my technical skills, I also have strong artistic skills. I am proficient in Blender, 3DS Max, and Maya. These skills allow me to create high-quality 3D models and animations for use in a variety of applications.</p>
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Relevant Experience</h3>
+            <div class="resume-item">
+              <h4>STFC - VR Developer</h4>
+              <h5>2021 - 2022 (12 Months)</h5>
+              <p><em>STFC Daresbury Laboratory</em></p>
+              <ul>
+                <p>Whilst working with STFC, I have been developing Both VR and Desktop programs within Unreal Engine. Utilising the latest features in Unreal Engine 5's preview, I have been overseeing projects through to completion. Including 
+                  personally working with companies through European SME support programs such as LCR4 Start.
+                </p>
+                <p>During my time there I have been actively expanding my knowledge in many fields. I have:</p>
+                <li></strong>Laser Scanned and 3D Printed artifacts for the Norton Priory Museum.</li>
+                <li></strong>Worked directly with SME's on projects through LCR4 Start and C&W funding schemes. Creating UE4 Applications, Animations, CAD designs and 3D Prints</li>
+                <li></strong>Created an Educational Virtual Reality Protein experience for Aberdeen Univeristy.</li>
+              </ul>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>This section contains my public projects. Many pages will include embedded youtube videos, as well as links to their respective repositories. For games, there may also be a download link for you to try yourself!</p>
+          <br>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-ue">Unreal Engine</li>
+              <li data-filter=".filter-code">Programming</li>
+              <li data-filter=".filter-cad">CAD Design</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ue">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/ue-protein.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="inner-pages/ue/protein.html " title="More Details"><p>Aberdeen University<div></div>Protein VR</p></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cad">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/fusion-wheel.PNG" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="inner-pages/cad/wheel.html" title="More Details"><p>Charity Wheel Cap</p></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-code">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/javascript-calculator.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="Javascript-Calculator/index.html" title="More Details"><p>Javascript<div></div>Calculator</p></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ue">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/vr-climb.PNG" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="inner-pages/ue/vr-climbing.html " title="More Details"><p>VR Climbing</p></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-code">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/cplusplus-relic.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="inner-pages/code/relic-hunters.html" title="More Details"><p>C++ Relic Hunters</p></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ue">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/vr-gun.PNG" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="inner-pages/ue/vr-guns.html " title="More Details"><p>VR Guns</p></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-code">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/uni-php.PNG" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="inner-pages/code/php-site.html" title="More Details"><p>PHP Review Site</p></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cad">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/model-main.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="inner-pages/cad/weapons.html" title="More Details"><p>CAD Blades</p></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ue">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/vr-sword.PNG" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="inner-pages/ue/vr-sword.html " title="More Details"><p>VR Sword Mesh</p></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cad">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/model-character.PNG" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="inner-pages/cad/character.html " title="More Details"><p>CAD Character</p></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- End Portfolio Section -->
+
+  </main>
+  <!-- End #main -->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
