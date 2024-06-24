@@ -1,49 +1,101 @@
 <!DOCTYPE HTML>
-<!--
-	Aerial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
-		<title>Aerial by HTML5 UP</title>
+		<title>The Neb Pack</title>
+		<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		
+		<!-- Meta tags for embed -->
+		<meta content="The Neb Pack" property="og:title" />
+		<meta content="A pack collection focused on performance, stability and quality of life changes." property="og:description" />
+		<meta content="https://embed.com/lavetio.xyz" property="og:url" />
+		<meta property="og:site_name" content="TNP | Modpacks" />
+		<meta name="twitter:image:src" content="https://www.lavetio.xyz/images/embed.png" />
+  		<meta name="twitter:card" content="summary_large_image" />
+		<meta content="#ffffff" data-react-helmet="true" name="theme-color" />
+		
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
 
 				<!-- Header -->
 					<header id="header">
-						<h1>Adam Jensen</h1>
-						<p>Security Chief &nbsp;&bull;&nbsp; Cyborg &nbsp;&bull;&nbsp; Never asked for this</p>
+						<div class="content">
+							<div class="inner">
+								<span class="image fit"><img src="images/title.png" alt="" /></span>
+								<p>A pack collection focused on performance, stability and quality of life changes</p>
+							</div>
+						</div>
 						<nav>
 							<ul>
-								<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-								<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-								<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+								<li><a href="#vanilla"><img src="images/vanillabutton.png" alt="" /></a></li>
+								<li><a href="#servers"><img src="images/serversbutton.png" alt="" /></a></li>
+								<li><a href="#modded" class=""><img src="images/moddedbutton.png" alt="" /></a></li>
 							</ul>
 						</nav>
 					</header>
 
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Vanilla -->
+							<article id="vanilla">
+								<span class="image main"><img src="images/pic04.png" alt="" /></span>
+								<center>
+								<p>A collection of quality of life mods aimed to make the vanilla Minecraft experience even more enjoyable. Using NOE, Journeymap and more to streamline your time. </p>
+								<p>Featuring social features such as: Voice Chat, WATUP, Chat Heads and the inclusion of the ESSENTIAL mod, it makes the multiplayer experience feel much more connected.</p>
+								<a href="https://www.youtube.com/watch?v=of6KydBr2hQ" target="_blank" class="button secondary"><img src="images/youtubelogo.png" style="vertical-align:middle; padding-bottom:5px; padding-right:3px ;" height="35" /> Installation Guide</a>
+								<a href="/assets/files/TNP - VanillaPlus - v1.0.0.zip" target="_blank" class="button primary"><img src="images/modrinthlogo1.png" style="vertical-align:middle; padding-bottom:5px; padding-right:3px ;" height="35" /> Get with Modrinth</a>
+								</center>
+							</article>
+
+						<!-- Modded -->
+							<article id="modded">
+								<span class="image main"><img src="images/pic03.png" alt="" /></span>
+								<center>
+									<p>The Minecraft modded experience, but optimised.</p>
+									<p>Featuring 120+ mods to enhanced not only regular gameplay, but also the multiplayer experience. Featuring mods such as: Create, Geophilic, Overhauled Villages, Immersive Aircraft, Farmers Delight, Let's do bakery, More Swords, Naturalist and more.</p>
+									<a href="https://www.youtube.com/watch?v=of6KydBr2hQ" target="_blank" class="button secondary"><img src="images/youtubelogo.png" style="vertical-align:middle; padding-bottom:5px; padding-right:3px ;" height="35" /> Installation Guide</a>
+									<a href="/assets/files/TNP - Reforged - v1.0.0.zip" target="_blank" class="button primary"><img src="images/modrinthlogo1.png" style="vertical-align:middle; padding-bottom:5px; padding-right:3px ;" height="35" /> Get with Modrinth</a>
+								</center>
+							</article>
+
+						<!-- Servers -->
+							<article id="servers">
+								<center>
+									<span class="image main"><img src="images/pic04.png" alt="" style="max-height: 20rem; max-width: 20rem;"/></span>
+									<h3>play.lavetio.xyz</h3>
+									<p>24 Players | 24/7 | Waypoints | Voice Chat</p>
+								</center>
+								<center>
+									<span class="image main"><img src="images/pic03.png" alt="" style="max-height: 20rem; max-width: 20rem;"/></span>
+									<h3>mod.lavetio.xyz</h3>
+									<p>12 Players | 24/7 | 140+ Mods | Voice Chat</p>
+								</center>
+							</article>
+					</div>
+
 				<!-- Footer -->
 					<footer id="footer">
-						<span class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
+						<p class="copyright">&copy;2024 Ben Powell</p>
 					</footer>
 
 			</div>
-		</div>
-		<script>
-			window.onload = function() { document.body.classList.remove('is-preload'); }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
 	</body>
 </html>
